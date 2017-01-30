@@ -1,0 +1,128 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	/*background-image: url(../images/new_year_background.png);*/
+}
+
+
+/*navigation CSS */
+	.navigation {
+		width:960px;
+		height:100px;
+		background-color:orange;
+	}
+
+	.navigation ul {
+		list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    /*overflow: hidden;*/
+	    background-color: #fff;
+	    display: inline;
+	}
+
+	.navigation h1 {
+		display:inline;
+		width:224px;
+		background-color: aqua;
+	}
+
+	.navigation li {
+	    float: right;
+	}
+
+	.navigation li a {
+	    display: block;
+	    color: #777;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	}
+
+	.navigation li a:hover {
+	    background-color: #111;
+	}
+
+/*End navigation CSS*/
+
+	.main-content {
+		width:960px;
+		background-color:aqua;
+	}
+
+/*MAIN BIO & PROFILE PIC*/
+	.main-bio {
+		width:650px;
+		background-color:pink;
+		float:left;
+	}
+
+	.profile{
+		float:left;
+		width:200px;
+	}
+
+/*END MAIN BIO*/
+
+/*SIDEBAR*/
+	.contact-info {
+		width:270px;
+		/*height:100px;*/
+		background-color:yellow;
+		float:right;
+	}
+
+	.contact-info ul {
+			list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		/*    overflow: hidden;
+		    background-color: #fff;
+		    display: inline;*/
+		}
+
+	.contact-info li {
+		    /*float: right;*/
+		    display: inline;
+		}
+
+	.contact-info li a {
+		text-align: center;
+		}
+
+	.contact-info li a:hover {
+		    opacity: 10%;
+		}
+
+	.contact-info img {
+		width:46px;
+		height:46px;
+	}
+
+/*END SIDEBAR*/
+
+/*STICKY FOOTER*/
+	.main-content {
+	  min-height: 100%;
+	  /* equal to footer height */
+	  margin-bottom: -142px; 
+	}
+	.main-content:after {
+	  content: "";
+	  display: block;
+	}
+	footer, .main-content:after {
+	  height: 142px; 
+	}
+
+/*MAKES FOOTER CLEAR FLOATS*/
+	
+	footer {
+		background-color: orange;
+		clear: both;
+		/*height: 60px;
+		background-color: grey;*/
+		text-align: center;
+	}
