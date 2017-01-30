@@ -66,14 +66,13 @@ body {
 
 /*END MAIN BIO*/
 
-/*SIDEBAR*/
+/*SIDEBAR GENERAL*/
 	.contact-info {
 		width:270px;
 		/*height:100px;*/
 		background-color:yellow;
 		float:right;
 	}
-
 	.contact-info ul {
 			list-style-type: none;
 		    margin: 0;
@@ -102,6 +101,68 @@ body {
 	}
 
 /*END SIDEBAR*/
+
+/*PORTFOLIO*/
+
+	.portfolio ul {
+			list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		}
+
+	.portfolio li {
+		    display: inline;
+		    float:left;
+		    padding-right: 10px;
+		}
+
+	.portfolio img {
+		width:246px;
+		height:186px;
+		/*position: relative;*/
+		display: inline;
+	}
+
+.portfolio-label {
+	width:246px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	top:200px;
+}
+
+/*.portfolio-box {
+	width:246px;
+	height: 186px;
+	background-color: red;
+	display:inline;
+}
+
+.portfolio-box img {
+	width: 246px;
+	height: 186px;
+	position: relative;
+}
+
+.portfolio-label {
+	width:246px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	top:200px;
+}
+
+.portfolio-label2 {
+	width:246px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	top:300px;
+	left:200px;
+}*/
+
+
+/*END PORTFOLIO*/
 
 /*STICKY FOOTER*/
 	.main-content {
