@@ -14,18 +14,23 @@
 
 <body>
 
+<div class="fullPage"> <!-- wrapper for entire page -->
   <!-- Site Header -->
   
     <header>
       <!-- h1: The most important headline -->
       
-      <div class="navigation">
-       <h1>Maggie Storino</h1>
+      <div class="navigation navBorder">
+       <h1 class="tabColor">Maggie Storino</h1>
 
          <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          
+          
           <li><a href="contact.html">Contact</a></li>
+          <li class="liBorder"><a href="portfolio.html">Portfolio</a></li>
+          <li class="liBorder"><a href="index.html">About</a></li>
+
+
          </ul>
 
       </div>
@@ -37,10 +42,10 @@
       <!-- Section 1: Bio -->
       <section class="main-bio contact">
         
-        <h2>Contact</h2>
+        <h2 class="section1H2 section1Border">Contact</h2>
 
 
-  <form action="action_page.php">
+  <form class="contactForm" action="action_page.php">
     
     <label for="fname">First Name</label>
     <br>
@@ -87,30 +92,32 @@
       <section class="contact-info">
 
         <!-- h2: Tier-2 Headline -->
-        <h3>Connect with Me</h3>
+        <h3 class="section2H3 section2Border">Connect with Me</h3>
 
         <!-- Unordered list -->
         <ul>
-
+          
           <li><a href="https://github.com/mstorino">
-            <img class="logo" src="assets/images/github.png"><alt="git">
+            <img class="logo logoSpacer" src="assets/images/github.png"><alt="git">
           </a></li>
         
-          <li><a href="https://github.com/mstorino">
-            <img class="logo" src="assets/images/github.png"><alt="git">
+          <li><a href="https://www.linkedin.com/in/maggie-storino-244134134/">
+            <img class="logo logoSpacer" src="assets/images/linkedin.png"><alt="linkedIn">
           </a></li>
 
-          <li><a href="https://github.com/mstorino">
-            <img class="logo" src="assets/images/github.png"><alt="git">
+          <li><a href="http://stackexchange.com/users/10007317/maggie">
+            <img class="logo" src="assets/images/stackoverflow.png"><alt="stackoverflow">
           </a></li>
 
         </ul>
 
+
       </section>
 
     </div><!--  main-content -->
-<footer>&copy;Copyright 2016 Maggie Storino</footer>
+<footer class="footerColor footerBorder">&copy;Copyright 2016 Maggie Storino</footer>
 
+</div> <!-- end fullPage -->
   </body>
 
 </html>
