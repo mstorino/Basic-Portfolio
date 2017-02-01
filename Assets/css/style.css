@@ -4,147 +4,141 @@ html, body {
 
 /*GENERAL COLORS & FONTS*/
 
-body {
-	background-image: url(../images/new_year_background.png);
-	color:#777777;
-	font-family: 'Arial', 'Helvetica-Neue', 'Helvetica', sans-serif;
-	font-size: 16px;
-}
+	body {
+		background-image: url(../images/new_year_background.png);
+		color:#777777;
+		font-family: 'Arial', 'Helvetica-Neue', 'Helvetica', sans-serif;
+		font-size: 16px;
+	}
 
-h1, h2, h3, h4 {
-	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
-	font-weight: bold;
-}
+	h1, h2, h3, h4 {
+		font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+		font-weight: bold;
+	}
 
-h1 {
-	font-size: 32px;
+	h1 {
+		font-size: 32px;
+	}
 
-}
+	h2 {
+		font-size: 24px;
+	}
 
-h2 {
-	font-size: 24px;
-}
+	h3 {
+		font-size: 18px;
+	}
 
-h3 {
-	font-size: 18px;
-}
+	h4 {
+		font-size: 18px;
+		font-weight: normal;
+	}
 
-h4 {
-	font-size: 18px;
-	font-weight: normal;
-}
-p {
-	line-height: 22px;
-	letter-spacing: 1px;
-}
-.section1H2, .section2H3 {
-	color:#4aaaa5;
-	padding-bottom: 20px;
-}
+	p {
+		line-height: 22px;
+		letter-spacing: 1px;
+	}
+	
+	.mainNav, .main-bio, .contact-info {
+		background-color: #ffffff;
+	}
 
-.tabColor, .contactSubmit {
-	background-color: #4aaaa5;
-	color:#ffffff;
-}
+	.navLink {
+	    color: #777777;
+	}
 
-.navigation, .main-bio, .contact-info {
-	background-color: #ffffff;
-}
+	.section1H2, .section2H3, .navItem a:hover {
+	    color: #4aaaa5;
+	}
 
-.footerColor {
-	background-color: #666666;
-	color: #999999;
+	.navLogo, .portfolioColor, .contactSubmit {
+		background-color: #4aaaa5;
+		color:#ffffff;
+	}
 
-}
+	.contactInput, .contactMessage, .footerColor {
+	    color: #999999;
+	    font-size:16px;
+	}
+
+	.footerColor {
+		background-color: #666666;
+	}
 
 /*BORDERS */
 
-.liBorder {
-	border-right: 1px solid #cccccc;
-}
-.navBorder {
-	border-bottom: 3px solid #cccccc;
-}
-
-.section1Border {
-	border-bottom: 3px solid #cccccc;
-}
-
-.section2Border {
-	border-bottom: 2px solid #cccccc;
-}
-
-.footerBorder {
-	border-top: 6px solid #4aaaa5;
-}
-
-/*MARGINS*/
-
-.fullPage {
-	margin: 0 0 0 40px;
-}
-	.main-bio {
-		padding:20px;
+	.liBorder {
+		border-right: 1px solid #cccccc;
 	}
-	.contact-info {
-		padding: 20px;
+	.navBorder, .section1Border {
+		border-bottom: 3px solid #cccccc;
 	}
 
+	.section2Border {
+		border-bottom: 2px solid #cccccc;
+	}
 
-/*navigation CSS */
-	.navigation {
+	.footerBorder {
+		border-top: 6px solid #4aaaa5;
+	}
+
+/*BODY*/
+
+	.fullPage {
+		margin: 0 0 0 40px;
+	}
+
+	.mainNav, .main-content, footer {
 		width:960px;
-		height:64px;
-		padding-top:20px;
-		/*background-color:orange;*/
 	}
 
-	.navigation ul {
+/*HEADER*/
+
+	.mainNav {
+		height:64px;
+		padding:20px 0px 0px 0px;
+	}
+
+	.navList {
 		list-style-type: none;
-	    margin: 0;
-	    padding: 0;
-	    /*overflow: hidden;*/
-	    background-color: #fff;
 	    display: inline;
 	}
 
-	.navigation h1 {
+	.navLogo {
 		display:inline;
 		width:224px;
 		padding:30px 20px 30px 20px;
-		/*background-color: aqua;*/
 	}
 
-	.navigation li {
+	.navItem {
 	    float: right;
 	}
 
-	.navigation li a {
+	.navLink {
 	    display: block;
-	    color: #777;
 	    text-align: center;
-	    padding: 14px 16px;
+	    padding: 14px 20px 14px 16px;
 	    text-decoration: none;
 	}
 
-	.navigation li a:hover {
-	    background-color: #111;
-	}
 
-/*End navigation CSS*/
+/*MAIN CONTENT */
 
 	.main-content {
-		width:960px;
-		/*background-color:aqua;*/
 		margin-top: 30px;
 	}
 
-	
+	.main-bio, .contact-info {
+		padding: 20px 20px 20px 20px;
+	}
+
+	.section1H2, .section2H3 {
+		padding-bottom: 20px;
+	}
 
 /*MAIN BIO & PROFILE PIC*/
+
 	.main-bio {
 		width:610px;
-		/*background-color:pink;*/
 		float:left;
 	}
 
@@ -158,82 +152,73 @@ p {
 		padding-top: 16px;
 	}
 
-/*END MAIN BIO*/
+/*SIDEBAR*/
 
-/*SIDEBAR GENERAL*/
 	.contact-info {
 		width:230px;
-		/*height:100px;*/
-		/*background-color:yellow;*/
 		float:right;
 	}
-	.contact-info ul {
+
+	.contactList {
 			list-style-type: none;
 		    margin: 0;
 		    padding: 0;
-		/*    overflow: hidden;
-		    background-color: #fff;
-		    display: inline;*/
-		}
+	}
 
-	.contact-info li {
-		    /*float: right;*/
+	.contactItem {
 		    display: inline;
-		}
+	}
 
-	.contact-info li a {
+	.contactLink {
 		text-align: center;
 		text-decoration: none;
-		}
+	}
 
-	.contact-info li a:hover {
-		    opacity: 10%;
-		}
+	.contactItem a:hover {
+		opacity: 0.5;
+	}
 
 	.logoSpacer {
 		padding-right: 10px;
 	}
 
-	.logo{
+	.logo {
 		padding-top: 10px;
 		width: 29%;
 	}
 
 
-/*END SIDEBAR*/
-
 /*PORTFOLIO*/
 
-	.portfolio ul {
+	.portfolioList {
 			list-style-type: none;
 		    margin: 0px;
 		    padding: 20px 0px 0px 0px;
-		}
+	}
 
-	.portfolio li {
+	.portfolioItem {
 		    display: inline;
 		    float:left;
 		    padding: 10px 10px 0px 0px;
-		}
+	}
 
-	li.right {
-		    
+	.right {
 		    float:right;
-		    padding-right: 0px;
-		 
-		}
+		    padding-right: 0px;	 
+	}
 
-	.portfolio img {
+
+	.portfolioImg, .portfolio-label, .portfolio-label2, .portfolio-label3 {
 		width:290px;
+	}
+
+	.portfolioImg {
 		height:200px;
-		/*position: relative;*/
 		display: inline;
 	}
 
 	.portfolio-label, .portfolio-label2, .portfolio-label3 {
-		width:290px;
 		height: 50px;
-	/*	background-color: white;*/
 		position: absolute;
 		text-align: center;
 	}
@@ -245,6 +230,7 @@ p {
 	.portfolio-label {
 		top:300px;
 	}
+
 	.portfolio-label2 {
 		top:500px;
 	}
@@ -253,154 +239,50 @@ p {
 		top:700px;
 	}
 
-/*.portfolio-box {
-	width:246px;
-	height: 186px;
-	background-color: red;
-	display:inline;
-}
+/*CONTACT*/
 
-.portfolio-box img {
-	width: 246px;
-	height: 186px;
-	position: relative;
-}
-
-.portfolio-label {
-	width:246px;
-	height: 100px;
-	background-color: white;
-	position: absolute;
-	top:200px;
-}
-
-.portfolio-label2 {
-	width:246px;
-	height: 100px;
-	background-color: white;
-	position: absolute;
-	top:300px;
-	left:200px;
-}*/
-
-
-/*END PORTFOLIO*/
-
-/*CONTACT ATTEMPT 2*/
-
-.contactForm {
-	padding-top: 20px;
-}
-
-/*input[type=submit] {
-    width: 90%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}*/
-
-
-.contactInput, .contactMessage, .contactSubmit   {
-	
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    width: 90%;
-    font-size: 14px;
-    color: grey;
-    
-}
-
-/*.contactInput, .contactMessage {
-	
-	display: inline-block;
-	box-sizing: border-box;
-}*/
-.contactMessage {
-	height: 200px;
-}
-
-.contactSubmit {
-	width: 20%;
-   /* background-color: #4CAF50;*/
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-/*.contact-form{
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}*/
-/*CONTACT ATTEMPT 1*/
-
-/*#contact-area {
-	width: 600px;
-	margin-top: 25px;
-}
-
-#contact-area input, #contact-area textarea {
-	padding: 5px;
-	width: 471px;
-	font-family: Helvetica, sans-serif;
-	font-size: 1.4em;
-	margin: 0px 0px 10px 0px;
-	border: 2px solid #ccc;
-}
-
-#contact-area textarea {
-	height: 90px;
-}
-
-#contact-area textarea:focus, #contact-area input:focus {
-	border: 2px solid #900;
-}
-
-#contact-area input.submit-button {
-	width: 100px;
-	float: left;
-}
-
-label {
-	float: left;
-	text-align: left;
-	margin-right: 15px;
-	width: 100px;
-	padding-top: 5px;
-	font-size: 1.4em;
-}*/
-
-/*END CONTACT*/
-
-/*STICKY FOOTER*/
-	.main-content {
-	  min-height: 100%;
-	  /* equal to footer height */
-	  margin-bottom: -142px; 
-	}
-	.main-content:after {
-	  content: "";
-	  display: block;
-	}
-	footer, .main-content:after {
-	  height: 142px; 
-	}
-
-/*MAKES FOOTER CLEAR FLOATS*/
-	
-	footer {
-		/*background-color: orange;*/
-		clear: both;
-		height: 60px;
-		background-color: grey;
-		text-align: center;
-		width: 960px;
+	.contactForm {
 		padding-top: 20px;
 	}
+
+	.contactInput, .contactMessage, .contactSubmit   {
+		
+	    padding: 12px 20px;
+	    margin: 8px 0;
+	    border: 1px solid #cccccc;
+	    width: 90%;
+	}
+
+	.contactMessage {
+		height: 200px;
+	}
+
+	.contactSubmit {
+		width: 20%;
+	    border: none;
+	    cursor: pointer;
+	}
+
+/*FOOTER*/
+	
+	footer {
+		clear: both; /*MAKES FOOTER CLEAR FLOATS*/
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	/*STICKY FOOTER*/
+
+		.main-content {
+		  min-height: 670px;
+		  margin-bottom: -50px; 
+		}
+
+		.main-content:after {
+		  content: "";
+		  display: block;
+		}
+
+		footer, .main-content:after {
+		  height: 50px; 
+		}
